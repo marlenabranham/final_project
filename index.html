@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/html5reset.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Branham Law Offices</title>
+      <link rel="icon" href="images/Branham2.png">
+    </head>
+
+  <a href="#main" class="skip">Jump to Content</a>
+
+    <header>
+      <div class="global-nav" id="topnav">
+        <div class="navbar">
+          <div class="navbar_link navbar_link-brand">
+            <a href="index.html">Branham Law Offices, PLLC</a>
+          </div>
+          <div class="navbar_link navbar_link-toggle" aria-label="menu icon">
+            <i aria-hidden="true" class="fas fa-bars"></i>
+          </div>
+          <nav class="navbar_items navbar_items--right">
+                  <ul class="navbar_link">
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="contact.html">Contact Us</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+    </header>
+
+    <main id="main">
+      <div class="overview" id="landing">
+        <h1 id="tagline">
+          Arizona's Trusted Law Firm.<br>
+          Your Attorney. Your Ally. Your Advocate.<br>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </h1>
+        <button class="open-button" onclick="openForm()">Free Consultation</button>
+      </div>
+    </main>
+
+<div class="contact" id="myForm">
+  <h3>Get a Free Consultation</h3>
+  <form action="/submit_contact_info" class="form-container">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+
+    <label for="subject">Send us a message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    <button class="close-button" onclick="closeForm()">X</button>
+  </form>
+</div>
+
+<div class="map-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6660.656870380909!2d-111.8343614!3d33.41468069999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba7e814e4ba97%3A0xce1b5a8f7a4bd922!2s101%20W%20Main%20St%2C%20Mesa%2C%20AZ%2085201!5e0!3m2!1sen!2sus!4v1713327148266!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.9791829450446!2d-112.0498859252279!3d33.47589274794491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0d89fc7c8457%3A0xeacfd98b3b31aa4a!2s2601%20N%2016th%20St%2C%20Phoenix%2C%20AZ%2085006!5e0!3m2!1sen!2sus!4v1713327060198!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<footer class="law-info">
+  <div class="hours">
+    <h3>Hours of Operation</h3>
+    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+    <p>Saturday and Sunday: Closed</p>
+  </div>
+  <div class="locations">
+    <h3>Our Locations</h3>
+    <p>2601 North 16 Street, Phoenix, AZ 85006</p>
+    <p>101 West Main Street, Mesa, AZ 85201</p>
+  </div>
+  <div class="contact-info">
+    <h3>Contact Us</h3>
+    <p>Phone:(602)842-0957</p>
+    <p>Fax:(480)833-7885</p>
+    <a href="mailto:info@branhamlawoffices.com">Email: info@branhamlawoffices.com</a>
+  </div>
+    <div class="icons">
+      <a href="mailto:mbranham@branhamlawoffice.com" aria-label="Email to mbranham@branhamlawoffice.com" class="email-icon">
+        <i aria-hidden="true" class="fa fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/marlon-branham-9a879028/" aria-label="LinkedIn" target="_blank" class="linkedin">
+        <i aria-hidden="true" class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <span class="copyright">
+      &copy; Branham Law Offices, PLLC 2024
+    </span>
+  </footer>
+  <script src="js/law.js"></script>
+</body>
+</html>
